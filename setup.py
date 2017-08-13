@@ -4,27 +4,6 @@ from setuptools import setup, find_packages
 
 project = 'hello'
 
-with_flask = True
-
-flask_dependences = []
-
-if with_flask:
-    flask_dependences = [
-        'Flask',
-        'Flask-SQLAlchemy',
-        'Flask-WTF',
-        'Flask-Script',
-        'Flask-Babel',
-        'Flask-Testing',
-        'Flask-Mail',
-        'Flask-Cache',
-        'Flask-Login',
-        'Flask-OpenID',
-        'Flask-Cors',
-        'Flask-JWT',
-        'Flask-Uploads'
-    ]
-
 setup(
     name=project,
     version='0.0.1',
@@ -49,7 +28,7 @@ setup(
                          'gensim',
                          'pandas',
                          'argparse'
-                     ] + flask_dependences,
+                     ],
     test_suite='tests',
     classifiers=[
         # How mature is this project? Common values are

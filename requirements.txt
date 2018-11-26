@@ -1,0 +1,31 @@
+# Flask
+Flask
+Flask-Babel
+# Flask-Cache
+Flask-Cors
+Flask-JWT
+Flask-Login
+Flask-Mail
+Flask-OpenID
+# Flask-SQLAlchemy
+Flask-Script
+Flask-Testing
+Flask-Uploads
+Flask-WTF
+
+# fabric
+fabric3
+
+# numeric calculation
+numpy
+scikit-learn
+scipy
+
+# rest of them
+# pymongo
+jieba
+bs4
+rq
+gensim
+pandas
+argparse
